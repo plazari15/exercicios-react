@@ -26,6 +26,6 @@ export const MegaSena = props => {
 
 }
 
-export default Inverter;
+// export default Inverter;
 
-export { Inverter, MegaSena }
+// export { Inverter, MegaSena }
