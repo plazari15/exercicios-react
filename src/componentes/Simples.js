@@ -4,6 +4,8 @@
 
 import React from 'react';
 import { View, Text } from 'react-native';
+import Padrao from '../estilo/padrao'
+import padrao from '../estilo/padrao';
 
 // export default function(props) {
 //     return <Text>{props.texto}</Text>
@@ -13,7 +15,7 @@ import { View, Text } from 'react-native';
  * Arrow Function
  */
 export default (props) => {
-    return <Text>Arrow: {props.texto}</Text>
+    return <Text style={[padrao.ex]}>Arrow: {props.texto}</Text>
 }
 
 // export default props => {
