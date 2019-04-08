@@ -4,8 +4,13 @@ import { createDrawerNavigator } from 'react-navigation';
 import Simples from './componentes/Simples';
 import ParImpar from './componentes/ParImpar';
 import { Inverter, MegaSena } from './componentes/Multi';
+import PegarCidade from './componentes/Tempo/PegarCidade'
 
 export default createDrawerNavigator({
+    Tempo: {
+        screen: () => <PegarCidade></PegarCidade>,
+        navigationOptions: { title: "Previsão do Tempo" }
+    },
     MegaSena : {
         screen: () => <MegaSena numeros={8} />,
         navigationOptions: { title: 'Mega Sena' }
